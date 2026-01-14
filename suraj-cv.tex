@@ -1,0 +1,184 @@
+\documentclass[a4paper,10pt]{article}
+
+% ---------------- Packages ----------------
+\usepackage[margin=1.1cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+\usepackage{multicol}
+\usepackage{tikz}
+
+% ---------------- Colors ----------------
+\definecolor{primary}{HTML}{0F172A}   % Dark slate
+\definecolor{accent}{HTML}{2563EB}    % Executive blue
+\definecolor{muted}{HTML}{64748B}     % Muted gray
+
+% ---------------- Section Style ----------------
+\titleformat{\section}
+  {\large\bfseries\sffamily\color{primary}}
+  {}{0em}{}
+  [\vspace{-0.2em}\titlerule]
+
+% ---------------- Custom Commands ----------------
+\newcommand{\role}[4]{%
+\textbf{#1} \hfill {\color{muted}#2}\\%
+\textit{#3} \hfill {\color{muted}#4}%
+}
+
+\newcommand{\metric}[1]{\textbf{\color{accent}#1}}
+
+% ---------------- Document ----------------
+\begin{document}
+
+% ---------------- Header ----------------
+\begin{center}
+    {\LARGE \textbf{Dr. Suraj Nair}}\\
+    \vspace{2mm}
+    \textit{Founder \& CEO \quad \textbar \quad PhD in AI and Robotics \quad \textbar \quad Scaling Deep-Tech to Global Enterprise}\\
+    \vspace{2mm}
+    \faMapMarker\ Singapore \quad
+    \faPhone\ +65 8506 0679 \quad
+    \faFlag\ Singaporean \quad
+    \faEnvelope\ \href{mailto:surajnair1@gmail.com}{surajnair1@gmail.com} \\
+    \vspace{1mm}
+    \faLinkedin\ \href{https://linkedin.com/in/dr-suraj-nair-3663617}{LinkedIn} \quad
+    \faGlobe\ \href{https://speedcargo.sg}{Company Website} \quad
+    \faGraduationCap\ \href{https://scholar.google.com/citations?user=zM-qft4AAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\vspace{4mm}
+
+% ---------------- Executive Summary ----------------
+\section*{EXECUTIVE SUMMARY}
+\textbf{Founder and CEO with 15+ years of experience in AI, robotics, and computer vision}, scaling deep-tech innovations into enterprise-grade products. Experienced in \textbf{startup leadership, fundraising, enterprise sales, and C-level engagement}, with global deployments across Asia, Europe, and the Middle East. PhD in Artificial Intelligence and Robotics (Technical University of Munich, Germany).
+
+% ---------------- Key Highlights ----------------
+\section*{KEY HIGHLIGHTS}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Founded and scaled Speedcargo Technologies to \metric{US\$700K ARR}, deploying AI/robotics solutions across 15+ countries.  
+    \item Raised \metric{US\$4.5M} in startup funding and S\$41M government grants (for research institutes across multiple programs).  
+    \item Established \textbf{C-level engagements and commercial contracts} with global airlines and ground handlers. 
+    \item \textbf{Built and led cross-functional teams} in AI, robotics and mission critical software intesive systems; established C-level partnerships; keynote speaker at IATA, GHI, Emirates Group.  
+    \item Winner, Startup World Cup Singapore Chapter; \textbf{regular speaker} at flagship events in Air Cargo and belyond
+\end{itemize}
+
+% ---------------- Experience ----------------
+\section*{EXPERIENCE}
+\role{Founder \& Chief Executive Officer}{2020 -- Present}{Speedcargo Technologies, Singapore}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Founded and scaled an AI and robotics startup, raising \metric{US\$4.5M} and growing revenue to \metric{US\$700K} ARR through multi-million-dollar enterprise contracts. To grow to \metric{US\$2M} ARR in 2026.
+    \item Built and led cross-functional teams across strategy, product, sales, and board governance, deploying AI-powered solutions globally (Asia, Europe, Middle East, Australia) for Tier-1 global airlines and ground handlers in Air Cargo
+    \item Established strategic partnerships with \textbf{Microsoft Corporation and Güdel AG}; regular keynote speaker at global aviation and logistics events.
+\end{itemize}
+
+\role{Principal}{2026 -- Present}{Epiphyte, Singapore}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Leads strategy, business development, and AI/Robotics initiatives, contributing to product and software development.
+\end{itemize}
+
+\role{Principal Investigator \& Program Lead}{2014 -- 2020}{TUMCREATE Ltd, Singapore}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Led the SPEEDCARGO robotics program, later commercialized as Speedcargo Technologies, building and directing multidisciplinary AI, robotics, and simulation teams.  
+    \item Part of the leadership team securing and managing USD 40M+ in competitive research and industry funding.  
+    \item Delivered joint projects with SATS, A*STAR, Continental AG, and global partners; collaborated with government agencies and C-level stakeholders, reporting directly to the CEO.
+\end{itemize}
+
+\role{Research Fellow \& Project Leader – AI \& Robotics}{2012 -- 2014}{fortiss GmbH, Germany}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Led the EU FP7 flagship project SMErobotics, driving industrial robotics, AI systems, and human–robot interaction.  
+    \item Collaborated with KUKA, COMAU, Güdel, DLR, Fraunhofer, and other European partners to deliver scalable automation solutions for manufacturing and industrial environments.
+\end{itemize}
+
+\role{Research Associate – AI \& Robotics}{2007 -- 2011}{Technical University of Munich, Germany}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item PhD research in AI, computer vision, and robotics for industrial systems.
+    \item Collaborated with BMW, Audi, Siemens, KUKA, ABB, and Bosch.  
+    \item Research Fellow on DFG-funded OR.NET project (medical systems interoperability).  
+    \item Developed robust AI and vision systems deployed in industrial environments.
+\end{itemize}
+
+\role{Research Assistant – Computer Vision}{2006 -- 2007}{Philips Research Laboratories, The Netherlands}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Conducted research on computer vision and gaze-tracking systems within multidisciplinary research teams at Philips Research.
+\end{itemize}
+
+\role{GPRS Engineer – Mobile Telecommunications Systems}{2005 -- 2005}{Orange, India}{}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Supported large-scale telecom backend systems (SMS, MMS, billing) and collaborated with global vendors including Ericsson, Motorola, and Nokia.
+\end{itemize}
+
+% ---------------- Board & Advisory ----------------
+\section*{BOARD \& ADVISORY}
+\begin{itemize}[leftmargin=*, label=-]
+    \item Chairman / Speedcargo Technologies Pte Ltd
+\end{itemize}
+
+% ---------------- Education ----------------
+\section*{EDUCATION}
+\textbf{PhD, Artificial Intelligence and Robotics} — Technical University of Munich (TUM), Germany \hfill {\color{muted}2012} \\
+\textit{Grade: Magna Cum Laude \\
+Advisor: Prof. Dr. Alois Knoll, Chair of Robotics and Artificial Intelligence,TUM, Germany \\
+Reviewer: Prof. Dr. Dieter Fox, Former Global Head of Robotics (NVIDIA), Professor at University of Washington, Author of *Probabilistic Robotics*}
+
+\textbf{Master of Science, Embedded Electronics and Computer Systems} — Tekniska Högskolan Jönköping, Sweden \hfill {\color{muted}2007} \\
+\textit{Grade: Distinction \\ Master Thesis in Computer Vision at Philips Research Laboratories, The Netherlands}
+
+\textbf{Bachelor of Engineering, Electronics and Telecommunications} — University of Pune, India \hfill {\color{muted}2004} \\
+\textit{Grade: Distinction}
+
+
+% ---------------- Skills ----------------
+\section*{CORE COMPETENCIES}
+\begin{multicols}{3}
+\begin{itemize}[leftmargin=*]
+    \item Startup Leadership
+    \item Fundraising \& Investor Relations
+    \item AI / ML Strategy
+    \item Product Management
+    \item Go-To-Market Strategy
+    \item Enterprise Sales
+    \item Fundraising and Board Matters
+    \item ISO27001
+\end{itemize}
+\end{multicols}
+
+% ---------------- Skills ----------------
+\section*{TECHNICAL COMPETENCIES}
+\begin{multicols}{3}
+\begin{itemize}[leftmargin=*]
+    \item Cloud Native Architectures
+    \item \parbox[t]{\columnwidth}{C/C++/Go/Python/Java/JavaScript}
+    \item \parbox[t]{\columnwidth}{VHDL/Matlab}
+    \item {Docker/Ansible/Git/Bitbucket Pipelines}
+    \item {ROS/ZeroMQ/Google RPC/Thrift}
+    \item \parbox[t]{\columnwidth}{Siemens ProfiNet, EtherCAT, Siemens Kineo, TCP/IP ABB RobotStudio}
+    \item Latex, Bash
+    \item Linux, RTOS, Windows
+    \item Zoho CRM, Jira, Confluence, MS Project
+\end{itemize}
+\end{multicols}
+
+% ---------------- Skills ----------------
+\section*{LANGUAGES}
+\begin{multicols}{3}
+\begin{itemize}[leftmargin=*]
+    \item {English - Full Profession Competency}
+    \item {Malalayam - Mother Tongue}
+    \item {Hindi - Proficient}
+    \item {Marathi - Proficient}
+    \item {German - Intermediate}
+\end{itemize}
+\end{multicols}
+
+\section*{REFERENCES}
+\begin{itemize}[leftmargin=*]
+    \item {Available on request.}
+\end{itemize}
+\end{document}
